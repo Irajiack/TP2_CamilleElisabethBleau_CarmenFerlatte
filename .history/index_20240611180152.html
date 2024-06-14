@@ -1,0 +1,252 @@
+<!-- Utilisation de SASS et Tailwind
+Les pages doivent être responsive
+Chernobyl (Tv  series 2019)
+Header
+-	Logo (à gauche face à moi) : img logo et nom du logo en h1
+-	Navigation (à droite)
+	Accueil avec un icône
+	Tournage avec un icône
+Page 1 (Accueil)
+	Section 1 : Présentation de l’œuvre
+	Côté gauche (face à moi) :  
+	Titre h2 : 
+	Paragraphe : petite description d’un maximum de 3 lignes.
+	Caroussel de 5 images avec Tailwind (à droite)
+
+Section 2 : 
+	Titre h2 : Images et extraits
+	Sous-titre p : petit descriptif maximum 12 mots.
+	Input : entrer votre adresse courriel et un button « soumettre »
+	1 container flex : 3 images
+	1 container : 1 vidéo
+
+Section 3 : 
+	Titre h2 : Présentation des acteurs (alignement à gauche)
+	Sous-titre p : petit descriptif moins de 2 lignes (alignement à gauche) et un maximum de 50% de largeur de la page.
+	2 rangées de 4 cards = 8 cards
+	En bas de chaque card
+	Nom de l’acteur h3
+	Rôle h4
+	Desriptif p : 10 mots maximum.
+	Icônes et liens Facebook, Twitter (logo oiseau), Instagram
+
+	Section 4  - Cards: 
+	8 cards (photo de l’acteur et petite description en dessous) 
+-->
+
+<!DOCTYPE html>
+<html lang="fr-ca">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chernobyl</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header class="flex justify-between items-center">
+      <div class="logo">
+        <img src="img/logo.png" alt="Logo Chernobyl" />
+        <h1>Chernobyl</h1>
+      </div>
+      <nav>
+        <ul class="flex">
+          <li>Accueil</li>
+          <li>Tournage</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Présentation de l'oeuvre</h2>
+        <p>
+          Chernobyl est une série télévisée dramatique historique en cinq
+          parties créée par Craig Mazin. Elle a été réalisée par Johan Renck
+          pour HBO. La série dramatise l'histoire vraie des catastrophes de la
+          centrale nucléaire de Tchernobyl en 1986 et des conséquences qui en
+          ont résulté.
+        </p>
+        <div>
+          <img src="img/carousel1.jpg" alt="Image 1" />
+          <img src="img/carousel2.jpg" alt="Image 2" />
+          <img src="img/carousel3.jpg" alt="Image 3" />
+          <img src="img/carousel4.jpg" alt="Image 4" />
+          <img src="img/carousel5.jpg" alt="Image 5" />
+        </div>
+      </section>
+      <section>
+        <h2>Images et extraits</h2>
+        <p>
+          Chernobyl est une série télévisée dramatique historique en cinq
+          parties créée par Craig Mazin.
+        </p>
+        <input type="email" placeholder="Entrez votre adresse courriel" />
+        <button>Soumettre</button>
+        <div>
+          <img src="img/extrait1__chernobyl_320x191.png" alt="Image 1" />
+          <img src="img/extrait2__chernobyl_380x191.png" alt="Image 2" />
+          <img src="img/extrait3__chernobyl2_380x191.png" alt="Image 3" />
+          <video src="video/video.mp4" controls></video>
+        </div>
+      </section>
+      <section>
+        <h2>Présentation des acteurs</h2>
+        <p>
+          Chernobyl est une série télévisée dramatique historique en cinq
+          parties créée par Craig Mazin.
+        </p>
+      </section>
+
+      <section>
+        <div class="flex">
+          <div class="card">
+            <img src="img/acteur1.png" alt="Acteur 1" />
+            <h3>Nom de l'acteur</h3>
+            <h4>Rôle</h4>
+            <p>10 mots maximum</p>
+            <div>
+              <a href="#" aria-label="Facebook"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/acteur2.png" alt="Acteur 2" />
+            <h3>Nom de l'acteur</h3>
+            <h4>Rôle</h4>
+            <p>10 mots maximum</p>
+            <div>
+              <a href="#" aria-label="Facebook"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/acteur3.png" alt="Acteur 3" />
+            <h3>Nom de l'acteur</h3>
+            <h4>Rôle</h4>
+            <p>10 mots maximum</p>
+            <div>
+              <a href="#" aria-label="Facebook"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/acteur4.png" alt="Acteur 4" />
+            <h3>Nom de l'acteur</h3>
+            <h4>Rôle</h4>
+            <p>10 mots maximum</p>
+            <div>
+              <a href="#" aria-label="Facebook"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="flex">
+          <div class="card">
+            <img src="img/acteur5.png" alt="Acteur 5" />
+            <h3>Nom de l'acteur</h3>
+            <h4>Rôle</h4>
+            <p>10 mots maximum</p>
+            <div>
+              <a href="#" aria-label="Facebook"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/acteur6.png" alt="Acteur 6" />
+            <h3>Nom de l'acteur</h3>
+            <h4>Rôle</h4>
+            <p>10 mots maximum</p>
+            <div>
+              <a href="#" aria-label="Facebook"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/acteur7.jpg" alt="Acteur 7" />
+            <h3>Nom de l'acteur</h3>
+            <h4>Rôle</h4>
+            <p>10 mots maximum</p>
+            <div>
+              <a href="#" aria-label="Facebook"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/acteur8.png" alt="Acteur 8" />
+            <h3>Nom de l'acteur</h3>
+            <h4>Rôle</h4>
+            <p>10 mots maximum</p>
+            <div>
+              <a href="#" aria-label="Facebook"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
