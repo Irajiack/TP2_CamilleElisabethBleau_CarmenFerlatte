@@ -1,0 +1,63 @@
+<!-- Utilisation de SASS et Tailwind
+Les pages doivent être responsive
+Chernobyl (Tv  series 2019)
+Header (avec components Tailwind)
+- Height: 100px
+- Display flex
+- Justify content: space-between
+-	Align items: center
+- Vertical align: middle
+-	Logo (à gauche face à moi) : img logo et nom du logo en h1
+ - Logo width: 80px
+-	Navigation (à droite)
+  o	Faticon maison Accueil
+  o	fation tournage Tournage -->
+
+<!DOCTYPE html>
+<html lang="fr-ca">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chernobyl</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header class="h-16 flex justify-between items-center">
+      <nav class="font-sans flex flex-col text-center content-center sm:flex-row sm:text-left sm:justify-between py-2 px-6 bg-white shadow sm:items-baseline w-full">
+
+  <div class="mb-2 sm:mb-0 flex flex-row
+  ">
+    <div class="h-10 w-10 self-center mr-2">
+      <img class="h-10 w-10 self-center" src="https://csscomps.com/images/csscomps.png" alt="logo"/>
+    </div>
+    <div>
+      <a href="/home" class="text-2xl no-underline text-grey-darkest hover:text-blue-dark font-sans font-bold">LogoText</a><br>
+      <span class="text-xs text-grey-dark">Beautiful New Tagline</span>
+    </div>
+  </div>
+
+  <div class="sm:mb-0 self-center">
+    <!-- <div class="h-10" style="display: table-cell, vertical-align: middle;"> -->
+    <a href="#" class="text-md no-underline text-black hover:text-blue-dark ml-2 px-1">Accueil</a>
+    <a href="#" class="text-md no-underline text-grey-darker hover:text-blue-dark ml-2 px-1">Tournage</a>
+    <!-- <a href="/two" class="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2">About Us</a> -->
+    <!-- </div> -->
+
+  </div>
+</nav>
+
+        </header>
+    <main>
+
+    </main>
+  </body>
+</html>
