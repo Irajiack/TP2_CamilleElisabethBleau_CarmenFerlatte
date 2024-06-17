@@ -12,5 +12,6 @@
     "tournage",
     "Tournage",
     "Utilisation"
-  ]
+  ],
+  "liveServer.settings.port": 5501
 }
