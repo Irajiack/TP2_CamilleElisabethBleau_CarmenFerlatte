@@ -119,15 +119,21 @@
               <a
                 href="#"
                 class="inline-block py-3 px-4 bg-white hover:bg-indigo-100 text-[#02B0CC] font-medium border border-transparent rounded-md"
-                >Coffret 5 épisodes</a
+                >En vente !</a
               >
 
               <span class="ml-3">
-              <a
-                href="#"
-                class="inline-block py-3 px-4 bg-white hover:bg-indigo-100 text-[#02B0CC] font-medium border border-transparent rounded-md"
-                >+ Acheter maintenant !</a
-              >
+                <select
+                  aria-label="Épisodes"
+                  class="inline-block py-3 px-4 bg-white hover:bg-indigo-100 text-[#02B0CC] font-medium border border-transparent rounded-md"
+                >
+                  <option value="1">Épisode 1 = 20 $</option>
+                  <option value="2">Épisode 2 = 20 $</option>
+                  <option value="3">Épisode 3 = 20 $</option>
+                  <option value="4">Épisode 4 = 20 $</option>
+                  <option value="5">Épisode 5 = 20 $</option>
+                  <option value="6">Coffret = 80 $</option>
+                </select>
               </span>
             </div>
           </div>
@@ -136,27 +142,27 @@
 
 	<div id="default-carousel" class="relative" data-carousel="static">
         <!-- Carousel wrapper -->
-        <div class="overflow-hidden relative h-56 rounded-lg sm:h-64 xl:h-80 2xl:h-96 shadow-sm">
+        <div class="overflow-hidden relative h-56 rounded-lg sm:h-64 xl:h-80 2xl:h-96">
             <!-- Item 1 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
                 <span class="absolute top-1/2 left-1/2 text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800">First Slide</span>
-                <img src="media/img/carroussel/carroussel-1.svg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2 rounded" alt="...">
+                <img src="media/img/carroussel/carroussel-1.svg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
             </div>
             <!-- Item 2 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="media/img/carroussel/carroussel-2.svg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2 rounded" alt="Mini-série Chernobyl">
+                <img src="media/img/carroussel/carroussel-2.svg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
             </div>
             <!-- Item 3 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="media/img/carroussel/carroussel-3.svg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2 rounded" alt="Mini-série Chernobyl">
+                <img src="media/img/carroussel/carroussel-3.svg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
             </div>
             <!-- Item 4 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="media/img/carroussel/carroussel-4.svg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2 rounded" alt="Mini-série Cherbobyl">
+                <img src="media/img/carroussel/carroussel-4.svg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
             </div>
             <!-- Item 5 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="media/img/carroussel/carroussel-5.svg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2 rounded" alt="Mini-série Chernobyl">
+                <img src="media/img/carroussel/carroussel-5.svg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
             </div>
         </div>
         <!-- Slider indicators -->
@@ -182,13 +188,21 @@
         </button>
     </div>
 
-	<p class="mt-0 invisible">This carousel slider component is part of a larger, open-source library of Tailwind CSS components. Learn
+	<p class="mt-5 invisible">This carousel slider component is part of a larger, open-source library of Tailwind CSS components. Learn
 		more
 		by going to the official <a class="text-blue-600 hover:underline"
 			href="https://flowbite.com/docs/getting-started/introduction/" target="_blank">Flowbite Documentation</a>.
 	</p>
     <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
 </div>
+
+          <!-- <div class="lg:relative lg:mt-16">
+            <img
+              class="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md pb-14"
+              src="https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+              alt="Woman workcation on the beach"
+            />
+          </div> -->
         </div>
       </section>
     </main>

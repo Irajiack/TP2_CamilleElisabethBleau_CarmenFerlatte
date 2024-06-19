@@ -1,0 +1,218 @@
+<!-- Section présentation
+  Faire un container avec deux divs à l'intérieur
+   La première va avoir un h2 avec le titre de la section. En dessous, mettre 2 boutons, le premier avec une sélection pour (Épisode 1, Épisode 2, Épisode 3, Épisode 4, Épisode 5 et Tous) et l'autre avec un icône + un texte acheter la série
+ La deuxième div qui est à droite va avoir un carrousel avec 5 images de la série Chernobyl
+ Faire les classes en fonctions des composants de Tailwind CSS. -->
+
+<!DOCTYPE html>
+<html lang="fr-ca">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chernobyl</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8f56361c7f.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b1be16cf81.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#9BB9C1] w-full min-h-screen">
+    <header class="bg-slate-400">
+      <nav
+        class="font-sans flex flex-col text-center content-center sm:flex-row sm:text-left sm:justify-between py-2 px-20 bg-[#69D8E4] shadow sm:items-baseline w-full"
+      >
+        <div class="mb-2 sm:mb-0 flex flex-row">
+          <div class="h-10 w-10 self-center mr-2">
+            <a
+              class="hover:cursor-pointer self-center"
+              href="index.html"
+              title="Accueil Chernobyl">
+              <img
+                class="w-80 self-center hover:scale-110 transition-transform duration-200"
+                src="media/img/logo.png" alt="logo">
+              </a>
+          </div>
+          <div class="mt-3 mb-3">
+            <a
+              href="index.html"
+              class="text-3xl no-underline text-grey-darkest hover:text-blue-dark font-sans"
+              >Oeuvre Cinématographique</a
+            ><br>
+            <span class="text-s text-[#544f57] font-bold pl-1"
+              >Mini-série TV (2019) Chernobyl</span
+            >
+          </div>
+        </div>
+
+        <div class="sm:mb-0 self-center flex items-end">
+          <span
+            ><img
+              class="h-6 ml-12 mr-2 p-0"
+              src="media/img/icone_nav_1.svg"
+              alt="icône tournage">
+            </span>
+          <a
+            href="index.html"
+            class="text-md underline text-black active:bg-[#F1F4F6] hover:text-[#544f57] hover:no-underline hover:bg-[#F1F4F6] focus:bg-[#9bb9c1] rouded-m pl-1 pr-2 ml-1 px-1 mr-3 -m-0.5"
+            title="Accueil Chernobyl"
+            >Accueil</a>
+          <span>
+            <img
+              class="h-6 ml-3 p-0"
+              src="media/img/icone_nav_2.svg"
+              alt="icône tournage">
+            </span>
+          <a
+            href="tournage.html"
+            class="text-md no-underline text-grey-darker hover:text-[#544f57] hover:no-underline hover:bg-[#F1F4F6] focus:bg-[#9bb9c1] rouded-m pl-2 pr-1 ml-1 px-1 -m-1"
+            title="Tournage Chernobyl"
+            >Tournage</a
+          >
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="presentation">
+<div container class="flex flex-row">
+  <div class="flex flex-col">
+    <h2 class="text-4xl text-[#544f57] font-bold pl-2">Chernobyl</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt praesentium eligendi accusamus beatae. Unde consequuntur expedita sequi quisquam debitis fugit!</p>
+    </div>
+    <div class="flex flex-row">
+      
+  </div>
+  </div>
+
+      </section>
+
+      <section class="carrousel">
+<!--https://tailwindcomponents.com/component/tailwind-css-sigup-form------Tailwind CSS Blog Section-->
+
+
+<div class="text-gray-900 pt-12 pr-0 pb-14 pl-0 bg-white">
+  <div class="w-full pt-4 pr-5 pb-6 pl-5 mt-0 mr-auto mb-0 ml-auto space-y-5 sm:py-8 md:py-12 sm:space-y-8 md:space-y-16
+      max-w-7xl">
+    <div class="flex flex-col items-center sm:px-5 md:flex-row">
+      <div class="flex flex-col items-start justify-center w-full h-full pt-6 pr-0 pb-6 pl-0 mb-6 md:mb-0 md:w-1/2">
+        <div class="flex flex-col items-start justify-center h-full space-y-3 transform md:pr-10 lg:pr-16
+            md:space-y-5">
+          <div class="bg-green-500 flex items-center leading-none rounded-full text-gray-50 pt-1.5 pr-3 pb-1.5 pl-2
+              uppercase inline-block">
+            <p class="inline">
+              <svg class="w-3.5 h-3.5 mr-1" fill="currentColor" viewbox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0
+                  00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755
+                  1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1
+                  0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            </p>
+            <p class="inline text-xs font-medium">New</p>
+          </div>
+          <a class="text-4xl font-bold leading-none lg:text-5xl xl:text-6xl">Write anything. Be creative.</a>
+          <div class="pt-2 pr-0 pb-0 pl-0">
+            <p class="text-sm font-medium inline">author:</p>
+            <a class="inline text-sm font-medium mt-0 mr-1 mb-0 ml-1 underline">Jack Sparrow</a>
+            <p class="inline text-sm font-medium mt-0 mr-1 mb-0 ml-1">· 23rd, April 2021 ·</p>
+            <p class="text-gray-200 text-sm font-medium inline mt-0 mr-1 mb-0 ml-1">1hr 20min. read</p>
+          </div>
+        </div>
+      </div>
+      <div class="w-full md:w-1/2">
+        <div class="block">
+          <img
+              src="https://images.unsplash.com/photo-1626314928277-1d373ddb6428?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mzd8fHxlbnwwfHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" class="object-cover rounded-lg max-h-64 sm:max-h-96 btn- w-full h-full"/>
+        </div>
+      </div>
+    </div>
+    <div class="grid grid-cols-12 sm:px-5 gap-x-8 gap-y-16">
+      <div class="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4">
+        <img
+            src="https://images.unsplash.com/photo-1626318305863-bb23d0297c0b?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" class="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56 btn-"/>
+        <p class="bg-green-500 flex items-center leading-none text-sm font-medium text-gray-50 pt-1.5 pr-3 pb-1.5 pl-3
+            rounded-full uppercase inline-block">Entertainment</p>
+        <a class="text-lg font-bold sm:text-xl md:text-2xl">Improving your day to the MAX</a>
+        <p class="text-sm text-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+        <div class="pt-2 pr-0 pb-0 pl-0">
+          <a class="inline text-xs font-medium mt-0 mr-1 mb-0 ml-0 underline">Jack Sparrow</a>
+          <p class="inline text-xs font-medium mt-0 mr-1 mb-0 ml-1">· 23rd, March 2021 ·</p>
+          <p class="inline text-xs font-medium text-gray-300 mt-0 mr-1 mb-0 ml-1">1hr 20min. read</p>
+        </div>
+      </div>
+      <div class="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4">
+        <img
+            src="https://images.unsplash.com/photo-1626285861696-9f0bf5a49c6d?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTl8fHxlbnwwfHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" class="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56 btn-"/>
+        <p class="bg-green-500 flex items-center leading-none text-sm font-medium text-gray-50 pt-1.5 pr-3 pb-1.5 pl-3
+            rounded-full uppercase inline-block">Entertainment</p>
+        <a class="text-lg font-bold sm:text-xl md:text-2xl">Improving your day to the MAX</a>
+        <p class="text-sm text-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+        <div class="pt-2 pr-0 pb-0 pl-0">
+          <a class="inline text-xs font-medium mt-0 mr-1 mb-0 ml-0 underline">Jack Sparrow</a>
+          <p class="inline text-xs font-medium mt-0 mr-1 mb-0 ml-1">· 23rd, March 2021 ·</p>
+          <p class="inline text-xs font-medium text-gray-300 mt-0 mr-1 mb-0 ml-1">1hr 20min. read</p>
+        </div>
+      </div>
+      <div class="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4">
+        <img
+            src="https://images.unsplash.com/photo-1626197031507-c17099753214?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MzR8fHxlbnwwfHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" class="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56 btn-"/>
+        <p class="bg-green-500 flex items-center leading-none text-sm font-medium text-gray-50 pt-1.5 pr-3 pb-1.5 pl-3
+            rounded-full uppercase inline-block">Entertainment</p>
+        <a class="text-lg font-bold sm:text-xl md:text-2xl">Improving your day to the MAX</a>
+        <p class="text-sm text-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+        <div class="pt-2 pr-0 pb-0 pl-0">
+          <a class="inline text-xs font-medium mt-0 mr-1 mb-0 ml-0 underline">Jack Sparrow</a>
+          <p class="inline text-xs font-medium mt-0 mr-1 mb-0 ml-1">· 23rd, March 2021 ·</p>
+          <p class="inline text-xs font-medium text-gray-300 mt-0 mr-1 mb-0 ml-1">1hr 20min. read</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        </section>
+<!---->
+        <section>
+          
+        </section>
+    </main>
+
+    <footer class="grid grid-colrs-12 gap-1 w-full sticky top-full py-5 bg-[#69D8E4] items-center">
+      <div class="col-span-4 text-left px-11">
+        <a class="text-md text-[#544f57] text-xl mr-6 hover:text-[#544f57] hover:no-underline hover:bg-[#F1F4F6] focus:bg-[#9bb9c1] rouded pl-2 pr-2 ml-2 px-1 m-1" href="tel:+1234567890"><i class="fa-duotone fa-phone-volume"></i> +(123) 456 7890</a>
+        <a class="text-md text-[#544f57] text-xl mr-6 hover:text-[#544f57] hover:no-underline hover:bg-[#F1F4F6] focus:bg-[#9bb9c1] rouded pl-2 pr-2 ml-2 px-1 m-1" href="mailto:catastrophe@chernobyl.com"><i class="fa-duotone fa-envelope"></i> catastrophe@chernobyl.com</a>
+      </div>
+      <div class="col-span-4 text-center">
+        <p class="text-md text-[#544f57] text-7xl">
+          <i class="fa-kit fa-100-human-made"></i>
+        </p>
+      </div>
+      <div class="col-span-4 text-right px-11 ">
+        <p>
+          <span class="text-md text-[#544f57] text-xl mr-12">
+          Camille Élisabeth Bleau & Carmen Ferlatte
+          </span>
+          <a class="text-md text-[#544f57] text-2xl pl-2 pr-2 px-1 hover:text-[#544f57] hover:no-underline hover:bg-[#F1F4F6] hover:rounded" target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+          <a class="text-md text-[#544f57] text-2xl pl-2 pr-2 px-1 hover:text-[#544f57] hover:no-underline hover:bg-[#F1F4F6] hover:rounded" target="_blank" href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+          <a class="text-md text-[#544f57] text-2xl pl-2 pr-2 px-1 hover:text-[#544f57] hover:no-underline hover:bg-[#F1F4F6] hover:rounded" target="_blank" href="https://x.com/home"><i class="fa-brands fa-square-twitter"></i></a>
+          <a class="text-md text-[#544f57] text-2xl pl-2 pr-2 px-1 hover:text-[#544f57] hover:no-underline hover:bg-[#F1F4F6] hover:rounded" target="_blank" href="https://www.instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+        </p>
+      </div>
+      <div class="col-span-12 bg-[#544f57] h-1 my-4">
+      </div>
+      <div class="col-span-12 text-center">
+        <p class="text-md text-[#544f57] text-xl">
+          Cégep de Trois-Rivières
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

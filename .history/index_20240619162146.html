@@ -97,98 +97,71 @@
       </nav>
     </header>
     <main>
-      <section
-        class="max-w-screen-2xl max-w-screen-xl max-w-screen-lg max-w-screen-md max-w-screen-sm max-w-screen-xs mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:py-24"
-      >
+      <section class="bg-indigo-600">
         <div class="lg:grid lg:grid-cols-2">
-          <div class="py-10 px-10 lg:px-0 max-w-3xl lg:max-w-md mx-auto">
-            <h2 class="text-4xl tracking-tight font-extrabold text-[#544f57]">
+          <div class="py-24 px-10 lg:px-0 max-w-3xl lg:max-w-md mx-auto">
+            <h2 class="text-4xl tracking-tight font-extrabold text-gray-100">
               <span class="block">Chernobyl</span>
               <span class="block">Mini-série TV (2019)</span>
             </h2>
-            <p class="text-gray-700 mt-5">
+            <p class="text-gray-300 mt-5">
               1986. L'explosion d'un réacteur à la centrale nucléaire de
               Tchernobyl, en Ukraine, a de terribles conséquences aussi bien sur
               le personnel de l'usine, que sur les équipes de secours, la
-              population et l'environnement.
-            </p>
-            <p class="text-gray-700 mt-5">
+              population et l'environnement. 
+              </p>
+              <p class="text-gray-300 mt-5">
               Découvrez les 5 épisodes de cette mini-série TV.
             </p>
             <div class="inline-block shadow mt-5">
-              <a
+
+              <select aria-label="Épisodes" class="inline-block py-3 px-4 bg-white hover:bg-indigo-100 text-indigo-500 font-medium border border-transparent rounded-md">
+                
+                <option value="1">1. 1:23:45</option>
+                <option value="2">2. Veuillez garder votre calme (Please Remain Calm)</option>
+                <option value="3">3. Que la terre s'ouvre ! (Open Wide, O Earth)</option>
+                <option value="4">4</option>
+                <option value="5">Épisode 5</option>
+                <option value="6">Tous</option>
+              </select>
+
+
+              <!-- <a
                 href="#"
-                class="inline-block py-3 px-4 bg-white hover:bg-indigo-100 text-[#02B0CC] font-medium border border-transparent rounded-md"
-                >Coffret 5 épisodes</a
-              >
+                class="inline-block py-3 px-4 bg-white hover:bg-indigo-100 text-indigo-500 font-medium border border-transparent rounded-md"
+                >5 épisodes</a
+              > -->
+
 
               <span class="ml-3">
-              <a
-                href="#"
-                class="inline-block py-3 px-4 bg-white hover:bg-indigo-100 text-[#02B0CC] font-medium border border-transparent rounded-md"
-                >+ Acheter maintenant !</a
-              >
-              </span>
+                <select aria-label="Épisodes" class="inline-block py-3 px-4 bg-white hover:bg-indigo-100 text-indigo-500 font-medium border border-transparent rounded-md">
+                
+                <option value="1">Épisode 1 = 20 $</option>
+                <option value="2">Épisode 2 = 20 $</option>
+                <option value="3">Épisode 3 = 20 $</option>
+                <option value="4">Épisode 4 = 20 $</option>
+                <option value="5">Épisode 5 = 20 $</option>
+                <option value="6">Tous = 80 $</option>
+              </select>
+
+
+
+                <!-- <a
+                  href="#"
+                  class="inline-block py-3 px-4 bg-white hover:bg-indigo-100 text-indigo-500 font-medium border border-transparent rounded-md"
+                >
+                  + Acheter maintenant</a
+                > -->
+                </span>
             </div>
           </div>
-
-          <div class="max-w-2xl mx-auto">
-
-	<div id="default-carousel" class="relative" data-carousel="static">
-        <!-- Carousel wrapper -->
-        <div class="overflow-hidden relative h-56 rounded-lg sm:h-64 xl:h-80 2xl:h-96 shadow-sm">
-            <!-- Item 1 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <span class="absolute top-1/2 left-1/2 text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800">First Slide</span>
-                <img src="media/img/carroussel/carroussel-1.svg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2 rounded" alt="...">
-            </div>
-            <!-- Item 2 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="media/img/carroussel/carroussel-2.svg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2 rounded" alt="Mini-série Chernobyl">
-            </div>
-            <!-- Item 3 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="media/img/carroussel/carroussel-3.svg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2 rounded" alt="Mini-série Chernobyl">
-            </div>
-            <!-- Item 4 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="media/img/carroussel/carroussel-4.svg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2 rounded" alt="Mini-série Cherbobyl">
-            </div>
-            <!-- Item 5 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="media/img/carroussel/carroussel-5.svg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2 rounded" alt="Mini-série Chernobyl">
-            </div>
-        </div>
-        <!-- Slider indicators -->
-        <div class="flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2">
-            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="2"></button>
-            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="2"></button>
-        </div>
-        <!-- Slider controls -->
-        <button type="button" class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-prev>
-            <span class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                <svg class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
-                <span class="hidden">Previous</span>
-            </span>
-        </button>
-        <button type="button" class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-next>
-            <span class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                <svg class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-                <span class="hidden">Next</span>
-            </span>
-        </button>
-    </div>
-
-	<p class="mt-0 invisible">This carousel slider component is part of a larger, open-source library of Tailwind CSS components. Learn
-		more
-		by going to the official <a class="text-blue-600 hover:underline"
-			href="https://flowbite.com/docs/getting-started/introduction/" target="_blank">Flowbite Documentation</a>.
-	</p>
-    <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
-</div>
+          <div class="lg:relative lg:mt-16">
+            <img
+              class="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md"
+              src="https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+              alt="Woman workcation on the beach"
+            />
+          </div>
         </div>
       </section>
     </main>
