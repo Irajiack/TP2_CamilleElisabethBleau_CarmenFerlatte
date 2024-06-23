@@ -1,5 +1,6 @@
   // menu toggle
 
+<script>
   document.addEventListener('DOMContentLoaded', function () {
     const menuToggle = document.getElementById('menu-toggle');
     const menu = document.getElementById('menu');
@@ -12,3 +13,4 @@
       closeIcon.classList.toggle('hidden');
     });
   });
+</script>
