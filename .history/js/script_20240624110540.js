@@ -18,7 +18,7 @@
   
 document.addEventListener('DOMContentLoaded', (event) => {
   const currentPageUrl = window.location.href;
-  const links = document.querySelectorAll('a.nav-link');
+  const links = document.querySelectorAll('a.nav');
 
   links.forEach(link => {
     if (link.href === currentPageUrl) {

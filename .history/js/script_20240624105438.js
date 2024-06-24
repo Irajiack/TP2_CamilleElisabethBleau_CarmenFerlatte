@@ -16,14 +16,11 @@
 
 // active-link
   
-document.addEventListener('DOMContentLoaded', (event) => {
+document.addEventListener('DomContentLoaded', (event) => {
   const currentPageUrl = window.location.href;
-  const links = document.querySelectorAll('a.nav-link');
+  const links = document.querySelectorAll('a');
 
   links.forEach(link => {
-    if (link.href === currentPageUrl) {
-      link.classList.add('underline'); // Utilisez la classe Tailwind ici
-    }
-  });
-});
-
+    if (link.href === currentPageUrl) 
+  })
+  }
