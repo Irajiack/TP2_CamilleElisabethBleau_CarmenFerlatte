@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 function validateForm() {
   let email = document.getElementById('email').value;
-  let emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+  var emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
   if (!emailRegex.test(email)) {
     alert("Veuillez entrer une adresse courriel valide.");
     return false; // pour empêcher le formulaire de se soumettre
@@ -42,4 +42,5 @@ function validateForm() {
 
 }
 
+}
 
