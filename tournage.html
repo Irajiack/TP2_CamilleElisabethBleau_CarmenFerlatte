@@ -3,9 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tournage</title>
+    <title>Chernobyl</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b1be16cf81.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/script.js" defer></script>
+  </head>
 </head>
-<body>
-    
+<body class="bg-[#9BB9C1] w-full min-h-screen">
+    <header>
+        <nav class="lg:px-16 px-6 bg-[#69D8E4] shadow-md flex flex-wrap items-center lg:py-0 py-2">
+            <div class="flex-1 flex justify-between items-center">
+                <a href="index.html" title="Mini-série TV (2019) Chernobyl" class="flex text-lg font-semibold">
+                    <img src="media/img/logo.png" width="80" class="p-2" alt="Logo">
+                    <div class="mt-3 xl:text-3xl lg:text-2xl md:text-1xl tracking-tight font-extrabold hover:text-blue-dark font-sans text-[#544f57]">
+                        <h1>Oeuvre cinématographique</h1>
+                        <br>
+                        <h2 class="xl:text-base md:text-sm xl:pl-1 xl:mt-[-40px] sm:mt-[-25px] md:pl-0 font-bold">Mini-série TV (2019) Chernobyl</h2>
+                    </div>
+                </a>
+            </div>
+            <label for="menu-toggle" class="cursor-pointer lg:hidden block">
+                <svg class="menu-icon fill-current text-[#544F57]" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                    <title>Menu</title>
+                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+                </svg>
+                <svg class="close-icon hidden fill-current text-[#544F57]" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 20 20">
+                    <title>Fermer</title>
+                    <path d="M14.348 14.849a1.2 1.2 0 0 1-1.697 0L10 11.196 7.349 13.85a1.2 1.2 0 1 1-1.697-1.697L8.196 10 5.652 7.349a1.2 1.2 0 1 1 1.697-1.697L10 8.196l2.651-2.654a1.2 1.2 0 1 1 1.697 1.697L11.804 10l2.544 2.651a1.2 1.2 0 0 1 0 1.698z"></path>
+                </svg>
+            </label>
+            <input class="hidden" type="checkbox" id="menu-toggle" aria-label="checkbox">
+            <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
+                <nav>
+                    <ul class="text-xl text-center items-center gap-x-5 pt-4 md:gap-x-4 lg:text-lg lg:flex lg:pt-0 sm:border-t-2 lg:border-hidden  border-[#544F57]">
+                        <li class="py-2 lg:py-0">
+                            <a href="index.html" title="Accueil"><i class="fas fa-camera-movie pr-2" style="color:#544f57"></i></a>
+                            <a class="text-[#544f57] hover:pb-4 hover:border-b-4 hover:border-[#F4F6F8] active:text-[#f1f4f6]" href="index.html">Accueil</a>
+                        </li>
+                        <li class="py-2 lg:py-0 ">
+                            <a href="tournage.html" title="Tournage"><i class="fas fa-clapperboard-play pr-2" style="color:#544f57"></i></a>
+                            <a class="text-[#544f57] hover:pb-4 hover:border-b-4 hover:border-[#F4F6F8]" href="tournage.html">Tournage</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="grid grid-cols-12 gap-1 w-full p-24 items-center">
+            <div class="col-span-6 text-left px-11">
+                <img src="media/img/crash_helicoptere.jpg" >
+            </div>
+            <div class="col-span-6 text-left px-11">
+                <h2 class="text-center text-4xl font-extrabold text-[#544f57]">Le saviez-vous?</h2>
+                <br>
+                <p class="text-center">
+                    <strong>Il s'avère que crash de l'hélicoptère dans la mini série Chernobyl est réellement arrivé!</strong>
+                </p>
+                <br>
+                <p>
+                    À cause de la tension durant la scène de la mini-série, beaucoup n'ont pas remarqué que l'hélicoptère, en passant au travers du panache de fumé, s'était pris les hélices dans le câble d'une grue! Non, contrairement à ce que les critiques disent, l'hélicoptère ne s'est pas désintégré à cause des radiations émanant du cœur du réacteur!<br>
+                    Cet accident, quoique dramatisé pour un peu plus de théâtre durant la mini-série, est bel et bien arrivé! Donc vous, vous demandez sûrement ce qui est réellement arrivé?<br><br>
+
+                    Le pilote volait trop près d'une grue et un rotor principal a accroché le câble qui pendait avec le crochet. Cela a brisé la pale du rotor et l'hélicoptère s'est immédiatement écrasé!<br><br>
+                    Le crash s'est produit le 2 octobre 1986, alors que le sarcophage était déjà bien avancé - il a été terminé en novembre 1986. Le cœur du réacteur avait donc déjà été substantiellement protégé par les largages antérieurs de plomb, de béton et de bore et les radiations n'étaient pas une cause du crash, simplement une mauvaise évaluation de la distance de la part du pilote.
+                </p>
+                <br>
+                <a href="https://www.youtube.com/watch?v=Hb_Q7_5cA9g" class="inline-block xl:py-2 xl:px-3 sm:py-1 sm:px-2 md:text-xs bg-white hover:bg-indigo-100 text-[#02B0CC] font-medium border border-transparent rounded-md">Visionner la vidéo du crash!</a>
+
+            </div>
+        </section>
+        <section class="grid grid-cols-12 gap-1 w-full p-24 items-center bg-[#544f57]">
+            <div class="col-span-4 m-10">
+                <img src="media/img/tournage_1.png">
+            </div>
+            <div class="col-span-4 m-10">
+                <img src="media/img/tournage_2.jpg">
+            </div>
+            <div class="col-span-4 m-10">
+                <img src="media/img/tournage_3.jpg">
+            </div>
+            <div class="col-span-4 m-10">
+                <img src="media/img/tournage_4.jpg">
+            </div>
+            <div class="col-span-4 m-10">
+                <img src="media/img/tournage_5.png">
+            </div>
+            <div class="col-span-4 m-10">
+                <img src="media/img/tournage_6.png">
+            </div>
+        </section>
+
+    </main>
+    <footer class="grid grid-cols-12 gap-1 w-full sticky top-full py-5 bg-[#69D8E4] items-center">
+        <div class="col-span-4 text-left px-11">
+            <a class="text-md text-[#544f57] text-xl mr-6 hover:text-[#544f57] hover:no-underline hover:bg-[#F1F4F6] focus:bg-[#9bb9c1] rouded pl-2 pr-2 ml-2 px-1 m-1" href="tel:+1234567890"><i class="fa-duotone fa-phone-volume"></i> +(123) 456 7890</a>
+            <a class="text-md text-[#544f57] text-xl mr-6 hover:text-[#544f57] hover:no-underline hover:bg-[#F1F4F6] focus:bg-[#9bb9c1] rouded pl-2 pr-2 ml-2 px-1 m-1" href="mailto:catastrophe@chernobyl.com"><i class="fa-duotone fa-envelope"></i> catastrophe@chernobyl.com</a>
+        </div>
+        <div class="col-span-4 text-center">
+            <p class="text-md text-[#544f57] text-7xl">
+                <i class="fa-kit fa-100-human-made"></i>
+            </p>
+        </div>
+        <div class="col-span-4 text-right px-11">
+            <p>
+                <span class="text-md text-[#544f57] text-xl mr-12">
+                    Camille Élisabeth Bleau & Carmen Ferlatte
+                </span>
+                <a class="text-md text-[#544f57] text-2xl pl-2 pr-2 px-1 hover:text-[#544f57] hover:no-underline hover:bg-[#F1F4F6] hover:rounded" rel="noopener" title="Suivez-nous sur Facebook" target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+                <a class="text-md text-[#544f57] text-2xl pl-2 pr-2 px-1 hover:text-[#544f57] hover:no-underline hover:bg-[#F1F4F6] hover:rounded" rel="noopener" title="Suivez-nous sur Linkedin" target="_blank" href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                <a class="text-md text-[#544f57] text-2xl pl-2 pr-2 px-1 hover:text-[#544f57] hover:no-underline hover:bg-[#F1F4F6] hover:rounded" target="_blank" rel="noopener" title="Suivez-nous sur X" href="https://x.com/home"><i class="fa-brands fa-square-twitter"></i></a>
+                <a class="text-md text-[#544f57] text-2xl pl-2 pr-2 px-1 hover:text-[#544f57] hover:no-underline hover:bg-[#F1F4F6] hover:rounded" target="_blank" rel="noopener" title="Suivez-nous sur Instagram" href="https://www.instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+            </p>
+        </div>
+        <div class="col-span-12 bg-[#544f57] h-1 my-4"></div>
+        <div class="col-span-12 text-center">
+            <p class="text-md text-[#544f57] text-xl">Cégep de Trois-Rivières</p>
+        </div>
+    </footer>
 </body>
 </html>
