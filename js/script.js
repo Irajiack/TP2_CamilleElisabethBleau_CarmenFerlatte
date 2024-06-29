@@ -56,14 +56,14 @@ accordionHeader.forEach((header) =>
         accordionContent.style.maxHeight = `${accordionContent.scrollHeight + 32}px`;
         header.querySelector(".fas").classList.remove("fa-chevrons-down");
         header.querySelector(".fas").classList.add("fa-chevrons-up");
-        header.parentElement.classList.replace("bg-[#F1F4F6]", "bg-[#69D8E4]");
+        header.parentElement.classList.replace("bg-[#F1F4F6]", "bg-indigo-100");
       } 
       else 
       {
         accordionContent.style.maxHeight = `0px`;
         header.querySelector(".fas").classList.add("fa-chevrons-down");
         header.querySelector(".fas").classList.remove("fa-chevrons-up");
-        header.parentElement.classList.replace("bg-[#69D8E4]", "bg-[#F1F4F6]");
+        header.parentElement.classList.replace("bg-indigo-100", "bg-[#F1F4F6]");
       }
   });
 });
