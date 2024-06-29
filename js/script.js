@@ -44,23 +44,27 @@ function validateForm() {
 
 
 const accordionHeader = document.querySelectorAll(".accordion-header");
-    accordionHeader.forEach((header) => {
-      header.addEventListener("click", function () 
+accordionHeader.forEach((header) => 
+{
+  header.addEventListener("click", function () 
+  {
+      const accordionContent = header.parentElement.querySelector(".accordion-content");
+      let accordionMaxHeight = accordionContent.style.maxHeight;
+
+      if (accordionMaxHeight == "0px" || accordionMaxHeight.length == 0) 
       {
-          const accordionContent = header.parentElement.querySelector(".accordion-content");
-          let accordionMaxHeight = accordionContent.style.maxHeight;
-          if (accordionMaxHeight == "0px" || accordionMaxHeight.length == 0) 
-          {
-            accordionContent.style.maxHeight = `${accordionContent.scrollHeight + 32}px`;
-            header.querySelector(".fas").classList.remove("fa-chevrons-down");
-            header.querySelector(".fas").classList.add("fa-chevrons-up");
-          }
-          else 
-          {
-            accordionContent.style.maxHeight = `0px`;
-            header.querySelector(".fas").classList.add("fa-chevrons-down");
-            header.querySelector(".fas").classList.remove("fa-chevrons-up");
-          }
-      });
-    });
+        accordionContent.style.maxHeight = `${accordionContent.scrollHeight + 32}px`;
+        header.querySelector(".fas").classList.remove("fa-chevrons-down");
+        header.querySelector(".fas").classList.add("fa-chevrons-up");
+        header.parentElement.classList.replace("bg-[#F1F4F6]", "bg-[#69D8E4]");
+      } 
+      else 
+      {
+        accordionContent.style.maxHeight = `0px`;
+        header.querySelector(".fas").classList.add("fa-chevrons-down");
+        header.querySelector(".fas").classList.remove("fa-chevrons-up");
+        header.parentElement.classList.replace("bg-[#69D8E4]", "bg-[#F1F4F6]");
+      }
+  });
+});
 
