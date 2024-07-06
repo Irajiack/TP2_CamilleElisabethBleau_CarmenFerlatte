@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chernobyl</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    >
+    <script
+      src="https://kit.fontawesome.com/b1be16cf81.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/script.js" defer></script>
+  </head>
+
+  <body class="bg-[#9BB9C1] w-full min-h-screen">
+    
+    <header>
+
+   <div class="lg:px-16 px-6 bg-[#69D8E4] shadow-md flex flex-wrap items-center lg:py-0 py-2">
+    <div class="flex-1 flex justify-between items-center">
+      <a href="index.html" title="Mini-série TV (2019) Chernobyl" class="flex text-lg font-semibold">
+        <img
+          src="media/img/logo.png"
+          width="80"
+          class="p-2"
+          alt="Logo"
+        >
+        <div class="mt-3 xl:text-3xl lg:text-2xl md:text-1xl tracking-tight font-extrabold hover:text-blue-dark font-sans text-[#544f57]">
+          <h1>Oeuvre cinématographique</h1><br>
+          <h2 class="xl:text-base md:text-sm xl:pl-1 xl:mt-[-40px] sm:mt-[-25px] md:pl-0 font-bold">Mini-série TV (2019) Chernobyl</h2>
+        </div>
+      </a>
+    </div>
+
+<label for="menu-toggle" class="cursor-pointer lg:hidden block">
+  <svg class="menu-icon fill-current text-[#544F57]" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <title>Menu</title>
+    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+  </svg>
+  <svg class="close-icon hidden fill-current text-[#544F57]" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 20 20">
+    <title>Fermer</title>
+    <path d="M14.348 14.849a1.2 1.2 0 0 1-1.697 0L10 11.196 7.349 13.85a1.2 1.2 0 1 1-1.697-1.697L8.196 10 5.652 7.349a1.2 1.2 0 1 1 1.697-1.697L10 8.196l2.651-2.654a1.2 1.2 0 1 1 1.697 1.697L11.804 10l2.544 2.651a1.2 1.2 0 0 1 0 1.698z"></path>
+  </svg>
+</label>
+
+    <input class="hidden" type="checkbox" id="menu-toggle" aria-label="checkbox">
+	
+    <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
+      <nav>
+        <ul class="text-xl text-center items-center gap-x-5 pt-4 md:gap-x-4 lg:text-lg lg:flex lg:pt-0 sm:border-t-2 lg:border-hidden  border-[#544F57]">
+          <li class="py-2 lg:py-0"><a href="index.html" title="Accueil"><i class="fas fa-camera-movie pr-2" style="color:#544f57"></i></a>
+            <a
+              class="text-[#544f57] hover:pb-4 hover:text-[#f4f6f8] hover:border-b-4 hover:border-[#F4F6F8] nav-link"
+              href="index.html"
+            >
+              Accueil
+            </a>
+          </li>
+          <li class="py-2 lg:py-0 "><a href="tournage.html" title="Tournage"><i class="fas fa-clapperboard-play pr-2" style="color:#544f57"></i></a>
+            <a
+              class="text-[#544f57] hover:pb-4 hover:text-[#f4f6f8] hover:border-b-4 hover:border-[#F4F6F8] nav-link"
+              href="tournage.html"
+            >
+              Tournage
+            </a>
+          </li>
+
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+    </header>
+
+    <main>
+      <section class="max-w-full mx-auto px-4 xl:py-12 md:py-5 sm:py-12 sm:px-6 lg:px-8 lg:py-24">
+        <div class="max-w-screen-xl grid grid-cols-12 mx-auto md:text-left sm:text-center item-stretch items-middle">
+          <div class="md:col-span-6 sm:col-span-12 my-auto py-0 px-10 lg:px-0 xl:max-w-xl lg:max-w-md ml-5">
+            <h2 class="xl:text-4xl lg:text-3xl md:text-2xl sm:text-3xl tracking-tight font-extrabold text-[#544f57]">
+              <span class="block">Chernobyl</span>
+              <span class="block">Mini-série TV (2019)</span>
+            </h2>
+            <p class="text-gray-700 md:text-sm xl:my-5 md:mt-2 sm:my-5">
+              1986. L'explosion d'un réacteur à la centrale nucléaire de
+              Tchernobyl, en Ukraine, a de terribles conséquences aussi bien sur
+              le personnel de l'usine, que sur les équipes de secours, la
+              population et l'environnement.
+            </p>
+            <p class="text-gray-700 xl:mt-0 lg:my-5 md:my-2 md:text-sm">
+              Découvrez les 5 épisodes de cette mini-série TV.
+            </p>
+            <div class="inline-block lg:mt-5 md:mt-2 sm:my-5">
+              <a
+                href="#"
+                class="inline-block xl:py-2 xl:px-3 sm:py-1 sm:px-2 md:text-xs bg-white hover:bg-indigo-100 text-[#02B0CC] font-medium border border-transparent rounded-md"
+                >En savoir plus !</a
+              >
+
+              <span class="ml-3">
+                <a
+                  href="#"
+                  class="inline-block xl:py-2 xl:px-3 sm:py-1 sm:px-2 md:text-xs bg-white hover:bg-indigo-100 text-[#02B0CC] font-medium border border-transparent rounded-md"
+                  >+ Acheter maintenant !</a
+                >
+              </span>
+            </div>
+          </div>
+
+          <div class="md:col-span-6 sm:col-start-2 sm:col-span-10 max-w-2xl mx-auto mr-5 xl:pt-0 md:pt-12 sm:mt-10">
+            <div id="default-carousel" class="relative" data-carousel="static">
+              <!-- Carousel wrapper -->
+              <div
+                class="overflow-hidden relative h-56 rounded-lg sm:h-64 xl:h-80 2xl:h-96 shadow-sm"
+              >
+                <!-- Item 1 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <span
+                    class="absolute top-1/2 left-1/2 text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800"
+                    >First Slide</span
+                  >
+                  <img
+                    src="media/img/carroussel-1.svg"
+                    class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2 rounded"
+                    alt="Mini-série Chernobyl"
+                  >
+                </div>
+                <!-- Item 2 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <img
+                    src="media/img/carroussel-2.svg"
+                    class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2 rounded"
+                    alt="Mini-série Chernobyl"
+                  >
+                </div>
+                <!-- Item 3 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <img
+                    src="media/img/carroussel-3.svg"
+                    class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2 rounded"
+                    alt="Mini-série Chernobyl"
+                  >
+                </div>
+                <!-- Item 4 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <img
+                    src="media/img/carroussel-4.svg"
+                    class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2 rounded"
+                    alt="Mini-série Cherbobyl"
+                  >
+                </div>
+                <!-- Item 5 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <img
+                    src="media/img/carroussel-5.svg"
+                    class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2 rounded"
+                    alt="Mini-série Chernobyl"
+                  >
+                </div>
+              </div>
+              <!-- Slider indicators -->
+              <div
+                class="flex absolute xl:bottom-0.5 md:mt-5 sm:mt-10 left-1/2 z-30 space-x-3 -translate-x-1/2"
+              >
+                <button
+                  type="button"
+                  class="w-3 h-3 rounded-full"
+                  aria-current="false"
+                  aria-label="Slide 1"
+                  data-carousel-slide-to="0"
+                ></button>
+                <button
+                  type="button"
+                  class="w-3 h-3 rounded-full"
+                  aria-current="false"
+                  aria-label="Slide 2"
+                  data-carousel-slide-to="1"
+                ></button>
+                <button
+                  type="button"
+                  class="w-3 h-3 rounded-full"
+                  aria-current="false"
+                  aria-label="Slide 3"
+                  data-carousel-slide-to="2"
+                ></button>
+                <button
+                  type="button"
+                  class="w-3 h-3 rounded-full"
+                  aria-current="false"
+                  aria-label="Slide 4"
+                  data-carousel-slide-to="2"
+                ></button>
+                <button
+                  type="button"
+                  class="w-3 h-3 rounded-full"
+                  aria-current="false"
+                  aria-label="Slide 5"
+                  data-carousel-slide-to="2"
+                ></button>
+              </div>
+              <!-- Slider controls -->
+              <button
+                type="button"
+                class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+                data-carousel-prev
+              >
+                <span
+                  class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-[#544f57] dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+                >
+                  <svg
+                    class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M15 19l-7-7 7-7"
+                    ></path>
+                  </svg>
+                  <span class="hidden">Previous</span>
+                </span>
+              </button>
+              <button
+                type="button"
+                class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+                data-carousel-next
+              >
+                <span
+                  class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-[#544f57] dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+                >
+                  <svg
+                    class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 5l7 7-7 7"
+                    ></path>
+                  </svg>
+                  <span class="hidden">Next</span>
+                </span>
+              </button>
+            </div>
+
+            <p class="mt-0 invisible">
+              This carousel slider component is part of a larger, open-source
+              library of Tailwind CSS components. Learn more by going to the
+              official
+              <a
+                rel="noopener"
+                class="text-blue-600 hover:underline"
+                href="https://flowbite.com/docs/getting-started/introduction/"
+                target="_blank"
+                >Flowbite Documentation</a
+              >.
+            </p>
+            <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+          </div>
+        </div>
+
+        <hr class="max-w-screen-xl mx-auto h-0.5 sm:mt-5 border-[#544f57]">
+      </section>
+
+      <section
+        class="max-w-full mx-auto px-0 sm:px-6 lg:px-8 lg:py-24 sm:py-10  bg-[#544f57]"
+      >
+        <div class="container xl:max-w-screen-xl lg:max-w-screen-lg sm:max-w-screen-sm mx-auto xl:mt-[-10px]">
+          <h2 class="text-center text-4xl font-extrabold xl:mt-[0]  text-[#f1f4f6] md:my-0">
+            Images et extraits
+          </h2>
+          <p class="text-center xl:pt-8 xl:mb-5 md:mb-[30px] md:pt-5 sm:py-5 text-[#f1f4f6]">
+            Découvrez quelques extraits de la série en vous abonnant à notre infolettre.
+          </p>
+
+          <div class="flex justify-center ">
+            <div class="flex flex-row space-x-5 mb-10 md:mb-16">
+              <form action="confirmation.html" target="_blank" onsubmit="return validateForm()" novalidate>
+              <input
+                id="email"
+                type="email"
+                aria-label="Votre adresse courriel"
+                tabindex="0"
+                class="md:w-60 sm:w-50 md:h-10 sm:h-8 mr-2 pl-2 md:text-sm sm:text-xs text-gray-700 placeholder-gray-600 border rounded-lg focus:shadow-outline"
+                placeholder="Votre adresse courriel"
+              >
+              <input class="btn-submit md:w-40 sm:w-35 md:h-10 sm:h-8 ml-2 md:text-sm sm:text-xs sm:px-2 font-semibold text-white bg-[#02B0CC] rounded-lg hover:bg-[#9BB9C1] focus:outline-none focus:shadow-outline cursor-pointer" type="submit" value="Je m'abonne !">
+              
+              </form>
+            </div>
+
+          </div>
+          <div class="grid grid-cols-12 gap-5 mx-auto">
+            <div class="xl:col-span-4 md:col-span-6 md:w-fit sm:col-start-2 sm:col-span-10 mx-auto">
+              <img class="rounded-lg"
+                src="media/img/extrait_1_400x250.png"
+                alt="extrait 1 série Chernobyl"
+              >
+            </div>
+            <div class="xl:col-span-4 md:col-span-6 md:w-fit sm:col-start-2 sm:col-span-10 mx-auto">
+              <img class="rounded-lg"
+                src="media/img/extrait_2_400x250.png"
+                alt="extrait 2 série Chernobyl"
+              >
+            </div>
+            <div class="xl:col-span-4 md:col-span-6 md:w-fit sm:col-start-2 sm:col-span-10 mx-auto xl:py-0 lg:py-0 md:py-2 align-middle md:h-[210px]">
+              <img class="rounded-lg"
+                src="media/img/extrait_3_400x250.png"
+                alt="extrait 3 série Chernobyl"
+              >
+            </div>
+          
+            <div class="xl:col-span-12 md:col-span-6 sm:col-start-2 sm:col-span-10 mx-auto xl:mt-5 md:mb-10">
+              <iframe
+                  class="xl:w-[560px] xl:h-[315px] lg:w-[444px] lg:h-[250px] md:w-[312px] md:h-[210px] md:px-1 sm:w-[400px] aspect-video rounded-lg my-auto"
+                  src="https://www.youtube.com/embed/s9APLXM9Ei8?si=_dWiEKbO25K-SWA6"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="max-w-full mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:py-24">
+        <div class="xl:max-w-screen-xl xl:grid xl:grid-cols-12 lg:max-w-screen-lg sm:max-w-screen-sm mx-auto">
+          
+            <div class="md:col-span-6">
+            <h2
+              class="xl:text-4xl md:text-3xl md:px-0 sm:text-4xl sm:px-14 sm:text-left tracking-tight font-extrabold text-[#544f57]"
+            >
+              Présentation des acteurs
+            </h2>
+            <p class="text-l md:text-left md:text-base mt-3 md:px-0 sm:px-14 sm:text-sm  text-[#544f57]">
+              Cette mini-série a été portée par un casting talentueux et diversifié, comprenant des acteurs tels que Jared Harris, Stellan Skarsgård, et Emily Watson.<br>
+              Leur interprétation des différents personnages a contribué à la réussite de cette adaptation captivante de la tragique catastrophe nucléaire de Tchernobyl.
+            </p>
+          </div>
+
+          <div class="md:col-span-12 flex flex-col mx-auto">
+            <div class="container-fluid grid grid-cols-12 gap-5 mt-10">
+              <div class="xl:col-span-3 md:col-span-4 sm:col-start-2 sm:col-span-5 flex flex-col">
+                <img class="rounded-lg"
+                  src="media/img/acteur1.png"
+                  alt="Jared Francis Harris série Chernobyl">
+                <h3 class="text-xl text-[#544f57] font-bold mt-3">Jared Harris</h3>
+                <h4 class="text-base text-[#544f57] lg:text-base sm:text-sm">Né à Londres en 1961. </h4>
+                <p class="text-[#544f57] mt-3 mb-3 flex-grow lg:text-base sm:text-sm">
+                  Jared Francis Harris est un acteur britannique qui est apparu dans des films, à la télévision et au théâtre. Il est le fils du feu acteur irlandais Richard Harris et de l'actrice galloise Elizabeth Rees-Williams. </p>
+                  <span>
+                  <a class="text-2xl opacity-50 hover:opacity-100 mr-2" href="https://www.facebook.com/" rel="noopener" target="_blank" title="Suivez-moi sur Facebook"><i class="fa-brands fa-square-facebook"></i></a>
+                  <a class="text-2xl opacity-50 hover:opacity-100 mr-2" href="https://www.linkedin.com" rel="noopener" target="_blank" title="Suivez-moi sur Twitter"><i class="fa-brands fa-twitter"></i></a>
+                  <a class="text-2xl opacity-50 hover:opacity-100" href="https://www.instagram.com" rel="noopener" target="_blank" title="Suivez-moi sur Instagram"><i class="fa-brands fa-instagram"></i></a>
+                  </span>
+              </div>
+
+              <div class="xl:col-span-3 md:col-span-4 sm:col-span-5 flex flex-col">
+                <img class="rounded-lg"
+                  src="media/img/acteur2.png"
+                  alt="Stellan Skarsgard série Chernobyl">
+                <h3 class="text-xl text-[#544f57] font-bold mt-3">Stellan Skarsgård</h3>
+                <h4 class="text-base text-[#544f57] lg:text-base sm:text-sm">Né à Göteborg en 1951. </h4>
+                
+                <p class="text-[#544f57] mt-3 mb-3 flex-grow lg:text-base sm:text-sm">
+                  Stellan Skarsgård est un acteur suédois. Il est surtout connu pour ses rôles dans les films Breaking the Waves, The Hunt for Red October, Good Will Hunting, Pirates of the Caribbean, Mamma Mia! et Thor. </p>
+               
+                  <span>
+                  <a class="text-2xl opacity-50 hover:opacity-100 mr-2" href="https://www.facebook.com/" rel="noopener" target="_blank" title="Suivez-moi sur Facebook"><i class="fa-brands fa-square-facebook"></i></a>
+                  <a class="text-2xl opacity-50 hover:opacity-100 mr-2" href="https://www.linkedin.com" rel="noopener" target="_blank" title="Suivez-moi sur Twitter"><i class="fa-brands fa-twitter"></i></a>
+                  <a class="text-2xl opacity-50 hover:opacity-100" href="https://www.instagram.com" rel="noopener" target="_blank" title="Suivez-moi sur Instagram"><i class="fa-brands fa-instagram"></i></a>
+                  </span>
+          </div>
+
+          <div class="xl:col-span-3 md:col-span-4 sm:col-start-2 sm:col-span-5 flex flex-col md:mt-0 sm:mt-5">
+            <img class="rounded-lg"
+              src="media/img/acteur3.png"
+              alt="Emily Watson série Chernobyl">
+            <h3 class="text-xl text-[#544f57] font-bold mt-3">Emily Watson</h3>
+            <h4 class="text-base text-[#544f57] lg:text-base sm:text-sm">Née à Londres en 1967. </h4>
+            <p class="text-[#544f57] mt-3 mb-3 flex-grow lg:text-base sm:text-sm">
+              Emily Watson est une actrice britannique. Elle est surtout connue pour ses rôles dans Breaking the Waves, Hilary and Jackie, Angela's Ashes, Gosford Park, Punch-Drunk Love, Red Dragon, The Life and Death of Peter Sellers, War Horse et Chernobyl. </p>
+              <span>
+              <a class="text-2xl opacity-50 hover:opacity-100 mr-2" href="https://www.facebook.com/" rel="noopener" target="_blank" title="Suivez-moi sur Facebook"><i class="fa-brands fa-square-facebook"></i></a>
+              <a class="text-2xl opacity-50 hover:opacity-100 mr-2" href="https://www.linkedin.com" rel="noopener" target="_blank" title="Suivez-moi sur Twitter"><i class="fa-brands fa-twitter"></i></a>
+              <a class="text-2xl opacity-50 hover:opacity-100" href="https://www.instagram.com" rel="noopener" target="_blank" title="Suivez-moi sur Instagram"><i class="fa-brands fa-instagram"></i></a>
+              </span>
+        </div>
+
+        <div class="xl:col-span-3 md:col-span-4 sm:col-span-5 flex flex-col sm:mt-5">
+          <img class="rounded-lg"
+            src="media/img/acteur4.png"
+            alt="Jessie Buckley série Chernobyl">
+          <h3 class="text-xl text-[#544f57] font-bold mt-3">Jessie Buckley</h3>
+          <h4 class="text-base text-[#544f57] lg:text-base sm:text-sm">Née à Killarney en 1989. </h4>
+          <p class="text-[#544f57] mt-3 mb-3 flex-grow lg:text-base sm:text-sm">
+            Jessie Buckley est une actrice et chanteuse irlandaise. Elle est surtout connue pour ses rôles dans les films Beast, Wild Rose, Judy, I'm Thinking of Ending Things et Fargo. </p>
+            <span>
+            <a class="text-2xl opacity-50 hover:opacity-100 mr-2" href="https://www.facebook.com/" rel="noopener" target="_blank" title="Suivez-moi sur Facebook"><i class="fa-brands fa-square-facebook"></i></a>
+            <a class="text-2xl opacity-50 hover:opacity-100 mr-2" href="https://www.linkedin.com" rel="noopener" target="_blank" title="Suivez-moi sur Twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a class="text-2xl opacity-50 hover:opacity-100" href="https://www.instagram.com" rel="noopener" target="_blank" title="Suivez-moi sur Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </span>
+        </div>
+
+        <div class="xl:col-span-3 md:col-span-4 sm:col-start-2 sm:col-span-5 flex flex-col xl:mt-10 sm:mt-5">
+          <img class="rounded-lg"
+            src="media/img/acteur5.png"
+            alt="Adam Nagaitis série Chernobyl">
+          <h3 class="text-xl text-[#544f57] font-bold mt-3">Adam Nagaitis</h3>
+          <h4 class="text-base text-[#544f57] lg:text-base sm:text-sm">Né à Chorley en 1985. </h4>
+          <p class="text-[#544f57] mt-3 mb-3 flex-grow lg:text-base sm:text-sm">
+            Adam Nagaitis est un acteur britannique. Il est surtout connu pour ses rôles dans les films The Young Pope, The Terror, Chernobyl et Gunpowder. </p>
+            <span>
+            <a class="text-2xl opacity-50 hover:opacity-100 mr-2" href="https://www.facebook.com/" rel="noopener" target="_blank" title="Suivez-moi sur Facebook"><i class="fa-brands fa-square-facebook"></i></a>
+            <a class="text-2xl opacity-50 hover:opacity-100 mr-2" href="https://www.linkedin.com" rel="noopener" target="_blank" title="Suivez-moi sur Twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a class="text-2xl opacity-50 hover:opacity-100" href="https://www.instagram.com" rel="noopener" target="_blank" title="Suivez-moi sur Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </span>
+         </div>
+
+         <div class="xl:col-span-3 md:col-span-4 sm:col-span-5 flex flex-col xl:mt-10 sm:mt-5">
+          <img class="rounded-lg"
+            src="media/img/acteur6.png"
+            alt="Paul Ritter série Chernobyl">
+          <h3 class="text-xl text-[#544f57] font-bold mt-3">Paul Ritter</h3>
+          <h4 class="text-base text-[#544f57] lg:text-base sm:text-sm">Né à Kent en 1966. </h4>
+          <p class="text-[#544f57] mt-3 mb-3 flex-grow lg:text-base sm:text-sm">
+            Paul Ritter est un acteur britannique. Il est surtout connu pour ses rôles dans les films Quantum of Solace, Harry Potter and the Half-Blood Prince, The Eagle, The Game, The Hollow Crown, Friday Night Dinner et Chernobyl. </p>
+            <span>
+            <a class="text-2xl opacity-50 hover:opacity-100 mr-2" href="https://www.facebook.com/" rel="noopener" target="_blank" title="Suivez-moi sur Facebook"><i class="fa-brands fa-square-facebook"></i></a>
+            <a class="text-2xl opacity-50 hover:opacity-100 mr-2" href="https://www.linkedin.com" rel="noopener" target="_blank" title="Suivez-moi sur Twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a class="text-2xl opacity-50 hover:opacity-100" href="https://www.instagram.com" rel="noopener" target="_blank" title="Suivez-moi sur Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </span>
+         </div>
+
+         <div class="xl:col-span-3 md:col-start-3 md:col-span-4 sm:col-start-2 sm:col-span-5 flex flex-col md:mt-10 sm:mt-5">
+          <img class="rounded-lg"
+            src="media/img/acteur7.png"
+            alt="Con O'Neill série Chernobyl">
+          <h3 class="text-xl text-[#544f57] font-bold mt-3">Con O'Neill</h3>
+          <h4 class="text-base text-[#544f57] lg:text-base sm:text-sm">Né à Weston-super-Mare en 1966. </h4>
+          <p class="text-[#544f57] mt-3 mb-3 flex-grow lg:text-base sm:text-sm">
+            Con O'Neill est un acteur britannique. Il est surtout connu pour ses rôles dans les films Telstar, The Batman, The Last Bus, Chernobyl et The Batman. </p>
+            <span>
+            <a class="text-2xl opacity-50 hover:opacity-100 mr-2" href="https://www.facebook.com/" rel="noopener" target="_blank" title="Suivez-moi sur Facebook"><i class="fa-brands fa-square-facebook"></i></a>
+            <a class="text-2xl opacity-50 hover:opacity-100 mr-2" href="https://www.linkedin.com" rel="noopener" target="_blank" title="Suivez-moi sur Twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a class="text-2xl opacity-50 hover:opacity-100" href="https://www.instagram.com" rel="noopener" target="_blank" title="Suivez-moi sur Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </span>
+         </div>
+
+         <div class="xl:col-span-3 md:col-span-4 sm:col-span-5 flex flex-col md:mt-10 sm:mt-5">
+          <img class="rounded-lg"
+            src="media/img/acteur8.png"
+            alt="Sam Troughton série Chernobyl">
+          <h3 class="text-xl text-[#544f57] font-bold mt-3">Sam Troughton</h3>
+          <h4 class="text-base text-[#544f57] lg:text-base sm:text-sm">Né à Londres en 1977. </h4>
+          <p class="text-[#544f57] mt-3 mb-3 flex-grow lg:text-base sm:text-sm">
+            Sam Troughton est un acteur britannique. Il est surtout connu pour ses rôles dans les films Vera Drake, Alien vs. Predator, Robin Hood, The Ritual, Chernobyl et The Pale Blue Eye. </p>
+            <span>
+            <a class="text-2xl opacity-50 hover:opacity-100 mr-2" href="https://www.facebook.com/" rel="noopener" target="_blank" title="Suivez-moi sur Facebook"><i class="fa-brands fa-square-facebook"></i></a>
+            <a class="text-2xl opacity-50 hover:opacity-100 mr-2" href="https://www.linkedin.com" rel="noopener" target="_blank" title="Suivez-moi sur Twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a class="text-2xl opacity-50 hover:opacity-100" href="https://www.instagram.com" rel="noopener" target="_blank" title="Suivez-moi sur Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </span>
+            </div>
+          </div>
+        </div>
+        </div>
+        <hr class="max-w-screen-xl mx-auto h-0.5 border-[#reef57] sm:mt-10">
+      </section>
+
+      <section class="max-w-full mx-auto px-4 py-12 sm-px-6 lg:px-8 lg:py-24 bg-[#544f57] text-[#f1f4f6]">
+
+        <div class="container-fluid max-w-screen-lg mx-auto grid grid-cols-12 gap-10 items-center mb-20">
+          <div class="xl:col-span-6 md:col-start-2 md:col-span-5 sm:col-start-2 sm:col-span-10 md:order-1 sm:order-2">
+            <img class="rounded" src="media/img/mikhail_gorbatchev__600x400.png" alt="David Dencik série Chernobyl">
+          </div>
+          <div class="xl:col-span-6 md:col-span-5 sm:col-start-2 sm:col-span-10 md:order-2 sm:order-1">
+            <h2 class="xl:text-4xl lg:text-3xl md:text-2xl sm:text-lg tracking-tight font-extrabold align-items-center">
+              Mikhaïl Gorbatchev
+            </h2>
+            <p class="mt-5 md:text-sm">
+              Depuis 1985, Gorbatchev est le secrétaire général du Parti soviétique. En tant que leader réformateur, il a rapidement été confronté à la tragédie nucléaire de Tchernobyl. Cet événement a conduit à la mise en place du glasnost, une politique de transparence visant à mettre fin à l'opacité de l'État..
+
+          </div>
+        </div>
+        
+        <div class="max-w-screen-lg mx-auto grid grid-cols-12 gap-10 items-center">
+          <div class="xl:col-span-6 md:col-start-2 md:col-span-5 sm:col-start-2 sm:col-span-10">
+            <h2 class="xl:text-4xl lg:text-3xl md:text-2xl sm:text-lg tracking-tight font-extrabold align-items-center">
+              Valery Legasov
+            </h2>
+            <p class="mt-5 md:text-sm">
+              Valery Legasov est un chimiste soviétique qui a joué un rôle clé dans la gestion de la catastrophe de Tchernobyl. Il a été l'un des premiers scientifiques à comprendre l'ampleur de la catastrophe et à proposer des solutions pour la contenir. Malheureusement, il a été confronté à l'opposition des autorités soviétiques et a fini par se suicider en 1988.
+            </p>
+          </div>
+          <div class="xl:col-span-6 md:col-span-5 sm:col-start-2 sm:col-span-10 ">
+            <img class="rounded" src="media/img/valeri_legasov__600x400.png" alt="Valery Legasov série Chernobyl">
+          </div>
+          </div>
+
+          <div class="max-w-screen-lg mx-auto grid grid-cols-12 gap-10 items-center mt-20">
+            <div class="xl:col-span-6 md:col-start-2 md:col-span-5 sm:col-start-2 sm:col-span-10 md:order-1 sm:order-2 md:mb-0 sm:mb-10">
+              <img class="rounded" src="media/img/boris_shcherbina__600x400.png" alt="Boris Shcherbina série Chernobyl">
+            </div>
+            <div class="xl:col-span-6 md:col-span-5 sm:col-start-2 sm:col-span-10 md:order-2 sm:order-1">
+              <h2 class="xl:text-4xl lg:text-3xl md:text-2xl sm:text-lg tracking-tight font-extrabold align-items-center">
+                Boris Shcherbina
+              </h2>
+              <p class="mt-5 md:text-sm">
+                Boris Shcherbina est un homme politique soviétique qui a été nommé par le gouvernement pour superviser la gestion de la catastrophe de Tchernobyl. Malgré son manque d'expérience dans le domaine nucléaire, il a joué un rôle crucial dans la coordination des efforts de secours et de nettoyage. Il est décédé en 1990 des suites d'une crise cardiaque.
+              </p>
+            </div>
+          </div>
+      </section>
+    </main>
+
+    <footer class="grid grid-cols-12 gap-1 w-full sticky top-full py-5 bg-[#69D8E4] items-center">
+            <div class="text-left col-span-12 my-2 lg:px-11 lg:col-span-4 lg:m-0">
+                <a class="text-[#544f57] text-base hover:text-[#544f57] hover:no-underline hover:bg-[#F1F4F6] focus:bg-[#9bb9c1] rouded px-1 m-1 lg:text-xl" href="tel:+1234567890"><i class="fa-duotone fa-phone-volume"></i> +(123) 456 7890</a>
+                <a class="text-[#544f57] text-base hover:text-[#544f57] hover:no-underline hover:bg-[#F1F4F6] focus:bg-[#9bb9c1] rouded px-1 m-1 lg:text-xl" href="mailto:catastrophe@chernobyl.com"><i class="fa-duotone fa-envelope"></i> catastrophe@chernobyl.com</a>
+            </div>
+            <div class="col-span-12 text-center row-start-1 row-end-1 my-2 lg:col-span-4 lg:row-auto lg:row-auto lg:m-0">
+                <p class="text-[#544f57] text-7xl">
+                    <i class="fa-kit fa-100-human-made"></i>
+                </p>
+            </div>
+            <div class="my-2 col-span-12 text-center lg:text-right lg:px-11 lg:col-span-4 lg:m-0">
+                <p>
+                    <span class="text-[#544f57] text-xl lg:mr-12">
+                        Camille Élisabeth Bleau & Carmen Ferlatte
+                    </span>
+                    <a class="text-[#544f57] text-4xl pl-2 pr-2 px-1 hover:text-[#544f57] hover:no-underline hover:bg-[#F1F4F6] hover:rounded lg:text-2xl" rel="noopener" title="Suivez-nous sur Facebook" target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a class="text-[#544f57] text-4xl pl-2 pr-2 px-1 hover:text-[#544f57] hover:no-underline hover:bg-[#F1F4F6] hover:rounded lg:text-2xl" rel="noopener" title="Suivez-nous sur Linkedin" target="_blank" href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                    <a class="text-[#544f57] text-4xl pl-2 pr-2 px-1 hover:text-[#544f57] hover:no-underline hover:bg-[#F1F4F6] hover:rounded lg:text-2xl" target="_blank" rel="noopener" title="Suivez-nous sur X" href="https://x.com/home"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a class="text-[#544f57] text-4xl pl-2 pr-2 px-1 hover:text-[#544f57] hover:no-underline hover:bg-[#F1F4F6] hover:rounded lg:text-2xl" target="_blank" rel="noopener" title="Suivez-nous sur Instagram" href="https://www.instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+                </p>
+            </div>
+            <div class="col-span-12 bg-[#544f57] h-1 my-4"></div>
+            <div class="col-span-12 text-center">
+                <p class="text-[#544f57] text-xl">Cégep de Trois-Rivières</p>
+            </div>
+        </footer>
+
+  </body>
+</html>
